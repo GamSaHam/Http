@@ -1,0 +1,20 @@
+
+curl --http1.0 [-v] [-GET | -G] [-H "key: value"] url  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
