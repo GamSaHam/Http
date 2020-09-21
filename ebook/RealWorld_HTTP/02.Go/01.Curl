@@ -1,0 +1,13 @@
+// Get 에 Url 파라미터 전달
+curl -G --data-urlencode "query=hello world" http://localhost:18888
+
+// 해더 정보 가지고오기
+curl --head http://localhost:18888
+
+// form 형태로 전달
+curl -v -d test=value http://localhost:18888
+
+// 파일 정보를 보낸다.
+curl -T main.go -H "Content-Type: text/plain" http://localhost:18888
+
+
