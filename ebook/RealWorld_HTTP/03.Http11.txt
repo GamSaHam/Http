@@ -1,0 +1,2 @@
+// Keep-Alive를 사용해 복수의 요청을 보낸다.
+curl -v http://www.google.com http://www.google.com

@@ -10,4 +10,9 @@ curl -v -d test=value http://localhost:18888
 // 파일 정보를 보낸다.
 curl -T main.go -H "Content-Type: text/plain" http://localhost:18888
 
+// multipart/form-data
+curl -F "name=Michael Jackson" -F "thumbnail=@photo.jpg" http://localhost:18888
+
+
+curl -H "Content-Type=image/jpeg" -d "@image.jpeg" http://localhost:18888
 
