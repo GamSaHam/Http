@@ -18,3 +18,11 @@ curl --cert-status -v https://exmaple.com
 // 핸드셰이크 프로토콜, 레코드 프로토콜, 고속 핸드셰이크
 
 // RTT 핑한번에 걸리는 시간
+
+curl -H "Expect:" --data-binary @bigfile.txt http://localhost:18888
+
+curl -0 http://example.com/download/sample.pdf
+
+
+
+
